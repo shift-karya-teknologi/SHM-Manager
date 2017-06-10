@@ -12,8 +12,8 @@ QSqlDatabase _createConnection()
     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL", QSqlDatabase::defaultConnection);
     db.setHostName(DB_HOST);
     db.setPort(DB_PORT);
-    db.setUserName("u9217517_prt_01");
-    db.setDatabaseName("u9217517_prt_01");
+    db.setUserName(DB_USERNAME);
+    db.setDatabaseName(DB_SCHEMA);
     db.setPassword(DB_PASSWORD);
     return db;
 }
