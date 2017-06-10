@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/glyphicons_016_bin.png</file>
+        <file>icons/glyphicons_044_keys.png</file>
+        <file>icons/glyphicons_081_refresh.png</file>
+        <file>icons/glyphicons_206_ok_2.png</file>
+        <file>icons/glyphicons_207_remove_2.png</file>
+        <file>icons/glyphicons_190_circle_plus.png</file>
+    </qresource>
+</RCC>
